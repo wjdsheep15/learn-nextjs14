@@ -41,6 +41,9 @@ export default async function Page() {
           <LatestInvoices />
         </Suspense>
       </div>
+      <div>
+        <button style={{ color: 'red' }}>button</button>
+      </div>
     </main>
   );
 }
